@@ -1,0 +1,98 @@
+.box-right {
+	display: flex;
+	justify-content: flex-end;
+}
+#mepr_pro_report_board {
+	padding: 20px 0;
+}
+#mepr_pro_report_loading {
+	background: white;
+    border-top: 1px solid #0073AA;
+    text-align: center;
+    padding: 10px;
+}
+#mepr_pro_report_date_filter {
+	display: none;
+	position: relative;
+	background-color: #FFF;
+	cursor: pointer;
+	padding: 4px 10px;
+	border-top: 1px solid #0073AA;
+	width: 200px;
+}
+#mepr_pro_report_date_filter .fa-caret-down {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+.mepr_pro_report_box {
+	display: none;
+	background-color: white;
+	border-top: 1px solid #0073AA;
+	margin-top: 20px;
+}
+#mepr_pro_report_product_filter {
+	padding: 10px;
+}
+#mepr_pro_report_product_filter .tglBtnWrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+#mepr_pro_report_product_filter .tglBtnWrap span {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 2px 10px;
+	background-color: #F2F2F2;
+	border-radius: 2px;
+	cursor: pointer;
+}
+#mepr_pro_report_product_filter .tglBtnWrap span:hover {
+	background-color: #CCC;
+}
+#mepr_pro_report_product_filter .tglBtnWrap span.selected {
+	background-color: #0073AA;
+	color: white;
+}
+#item_price_total {
+    padding: 4px;
+    text-align: center;
+}
+#mepr_pro_report_chart {
+	position: relative;
+}
+#mepr_pro_report_chart_options{
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#mepr_pro_report_chart svg {
+	width: 100%;
+}
+#mepr_pro_report_chart svg .category-axis{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+#mepr_pro_report_chart svg .category-total-axis{
+	font-size: 12px;
+}
+#mepr_pro_report_chart_tooltip {
+	position: absolute;
+	padding: 10px;
+	border-radius: 2px;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	pointer-events: none;
+	background-color: white;
+	white-space: nowrap;
+}
+#mepr_pro_report_chart_tooltip.hidden {
+	display: none;
+}
+#mepr_pro_report_sales {
+	padding: 10px;
+}
+#mepr_pro_report_sales table thead tr th {
+	background-color: rgba(0, 115, 170, .1);
+	padding: 2px 10px;
+}
+#mepr_pro_report_sales table tbody tr td {
+	text-align: center;
+}
